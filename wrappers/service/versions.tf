@@ -10,7 +10,7 @@ terraform {
 
   provider_meta "aws" {
     user_agent = [
-      "github.com/stasdvaydov/terraform-aws-ecs"
+      "github.com/terraform-aws-modules/terraform-aws-ecs"
     ]
   }
 }
