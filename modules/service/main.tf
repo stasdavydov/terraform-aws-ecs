@@ -1062,8 +1062,6 @@ resource "aws_ecs_task_definition" "this" {
         content {
           file_system_arn         = s3files_volume_configuration.value.file_system_arn
           root_directory          = s3files_volume_configuration.value.root_directory
-          transit_encryption      = s3files_volume_configuration.value.transit_encryption
-          transit_encryption_port = s3files_volume_configuration.value.transit_encryption_port
           access_point_arn        = s3files_volume_configuration.value.access_point_arn
         }
       }
